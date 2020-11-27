@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font Area finished font-family: 'Oswald', sans-serif; font-family: 'Poppins', sans-serif; */
+/* header area */
+.header_area {
+  background: #0A1B2A;
+  width: 100%;
+  height: 700px;
+}
+
+/* nav area */
+
+.nav {
+  padding-left: 0;
+}
+
+/* img area */
+.img-area {
+  padding-top: 150px;
+}
+
+.img-area:hover {
+  transform: scale(1.05);
+  transition: .3s;
+  cursor: pointer;
+}
+
+/* type animation area */
+.wc-about {
+  padding-top: 240px;
+}
+
+.wc-about h1 {
+  padding-bottom: 20px;
+  font-size: 2rem;
+  font-weight: 400;
+  color: black;
+}
+
+.wc-about h3 {
+  color: black;
+  font-size: 1.6rem;
+  font-weight: 100;
+  padding-bottom: 20px;
+}
+
+.typed {
+  color: green;
+}
+
+.wc-about p {
+  color: black;
+  font-size: 17px;
+  text-align: justify;
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+
+.wc-about ul {
+  margin: 0;
+  padding: 0;
+}
+
+.wc-about ul li a {
+  font-size: 1.8rem;
+}
+
+/* button animation Design */
+.btn-own {
+  padding: 4px 15px;
+  border: none;
+  background: #145a32;
+  color: white;
+  font-size: 18px;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-own:before {
+  content: '';
+  background: #D68910;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.btn-own:hover {
+  cursor: pointer;
+  border: none;
+  background: rgba(67, 67, 197, 0.781);
+}
+
+.btn-own span:nth-child(1) {
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(-45deg, #3498DB, #A2D9CE);
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: nthani1 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes nthani1 {
+  0% {
+    transform: translateX(-100%)
+  }
+
+  100% {
+    transform: translateX(100%)
+  }
+}
+
+.btn-own span:nth-child(2) {
+  content: '';
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(-45deg, #3498DB, #A2D9CE);
+  position: absolute;
+  right: 0;
+  top: 0;
+  animation: nthani2 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+
+@keyframes nthani2 {
+  0% {
+    transform: translateY(-100%)
+  }
+
+  100% {
+    transform: translateY(100%)
+  }
+}
+
+.btn-own span:nth-child(3) {
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(45deg, #3498DB, #A2D9CE);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  animation: nthani3 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-delay: 1.5s;
+}
+
+@keyframes nthani3 {
+  0% {
+    transform: translateX(100%)
+  }
+
+  100% {
+    transform: translateX(-100%)
+  }
+}
+
+.btn-own span:nth-child(4) {
+  content: '';
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(45deg, #3498DB, #A2D9CE);
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: nthani4 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+}
+
+@keyframes nthani4 {
+  0% {
+    transform: translateY(100%)
+  }
+
+  100% {
+    transform: translateY(-100%)
+  }
+}
+
+/* Button animation area ends */
+/* What i do area */
+.about-section {
+  background: #f9f9f9c2;
+}
+
+.typeded {
+  color: green;
+  font-size: 20px;
+}
+
+.about-after-design:after {
+  content: '';
+  position: absolute;
+  width: 30%;
+  height: 2px;
+  background: #4F6CA6;
+  top: 93%;
+  left: 35%;
+}
+
+.icon {
+  width: 70px;
+  margin: auto;
+}
+
+.icon img {
+  width: 100%;
+}
+
+.details-01 h1 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.work-title h1 {
+  font-size: 30px;
+  font-weight: 400;
+  font-family: 'Oswald', sans-serif;
+}
+
+.work-title h3 {
+  font-size: 30px;
+  font-weight: 200;
+  font-family: 'Oswald', sans-serif;
+}
+
+.work-title h5 {
+  font-size: 17px;
+  font-weight: 200;
+  font-family: 'Oswald', sans-serif;
+}
+
+.work-icon {
+  width: 70px;
+
+}
+
+.work-icon img {
+  width: 100%;
+}
+
+/* Education Area start */
+.edu-title h1 {
+  font-size: 30px;
+  font-weight: 400;
+  font-family: 'Oswald', sans-serif;
+}
+
+.edu-title h3 {
+  font-size: 30px;
+  font-weight: 200;
+  font-family: 'Oswald', sans-serif;
+}
+
+.edu-title h5 {
+  font-size: 17px;
+  font-weight: 200;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* Education Area ends */
+/* contact area  */
+
+.contact-me-area {
+  font-family: 'Poppins', sans-serif;
+  background: #0489b125;
+}
+
+.contact-area {
+  background: white;
+  width: 75%;
+  margin-left: 24%;
+  border-radius: 5px;
+}
+
+.contact-title {
+  margin-left: 25%;
+}
+
+.contact-input input {
+  margin-left: 25%;
+  display: block;
+  border: none;
+  border-bottom: 1px solid black;
+  width: 60%;
+}
+
+.contact-msg input {
+  margin-left: 25%;
+  display: block;
+  border: none;
+  border-bottom: 1px solid black;
+  width: 60%;
+}
+
+.contact-btn {
+  margin-left: 25%;
+}
+
+.contact-top-area {
+  background: #0489B1;
+  width: 35%;
+  position: absolute;
+  top: 200px;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+
+.contact-top-title h3 {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.contact-address h3 {
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.contact-mail h3 {
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.contact-call h3 {
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.contact-nav li a i {
+  font-size: 30px;
+  color: white;
+}
+
+.contact-nav li a i:hover {
+  color: ;
+}
+
+.footer-area {
+  background: rgba(0, 0, 0, 0.774);
+}
