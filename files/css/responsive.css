@@ -73,56 +73,65 @@
 
   .contact-top-area {
     display: none;
-
-    .contact-area {
-      width: 100%;
-      margin-left: 0;
-    }
-
-
-
   }
 
-  /* 480px area start */
-  @media (max-width:480px) {
-    .header_area {
-      height: 740px
-    }
-
-    .img-area {
-      padding-top: 40px;
-    }
-
-    .wc-about {
-      padding-top: 40px;
-    }
-
-    .contact-top-area {
-      display: none;
-    }
-
-    .contact-area {
-      width: 100%;
-      margin-left: 0;
-    }
-
-    .contact-title input {
-      margin: auto;
-    }
-
-    .contact-input input {
-      margin: auto;
-    }
-
-    .contact-msg input {
-      margin: auto;
-    }
-
-    .contact-btn {
-      margin-left: 20%;
-    }
-
-
+  /* footer area */
+  .footer-facebook iframe {
+    display: none;
   }
 
-  /* 480px area finished */
+
+}
+
+/* 480px area start */
+@media (max-width:480px) {
+  .header_area {
+    height: 740px
+  }
+
+  .img-area {
+    padding-top: 40px;
+  }
+
+  .wc-about {
+    padding-top: 40px;
+  }
+
+  .contact-top-area {
+    display: none;
+  }
+
+  .contact-area {
+    width: 100%;
+    margin: auto;
+  }
+
+  .contact-title {
+    margin-left: 20%;
+  }
+
+  .contact-title input {
+    margin: auto;
+  }
+
+  .contact-input input {
+    margin: auto;
+  }
+
+  .contact-msg input {
+    margin: auto;
+  }
+
+  .contact-btn {
+    margin-left: 20%;
+  }
+
+  /* footer area */
+  .footer-facebook iframe {
+    display: none;
+  }
+
+
+}
+
+/* 480px area finished */
